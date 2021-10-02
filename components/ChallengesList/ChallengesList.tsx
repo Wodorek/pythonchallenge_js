@@ -1,9 +1,9 @@
-import solution0 from '../../solutions/solution0/solution0';
+import solution0 from '../../lib/solution0/solution0';
 import UploadForm from '../UIElements/UploadForm';
 import ChallengeContainer from '../ChallengeContainer/ChallengeContainer';
-import solution1 from '../../solutions/solution1/solution1';
-import solution2 from '../../solutions/solution2/solution2';
-import solution3 from '../../solutions/solution3/solution3';
+import solution1 from '../../lib/solution1/solution1';
+import solution2 from '../../lib/solution2/solution2';
+import solution3 from '../../lib/solution3/solution3';
 
 const ChallengesList = () => {
   const textFromFile = async (
