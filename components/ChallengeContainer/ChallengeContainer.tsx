@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react';
 import Prism from 'prismjs';
+import 'prismjs/components/prism-typescript';
 import { AnimatePresence, motion } from 'framer-motion';
 
 interface IProps {
   number: number;
   hint: string;
   title: string;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  code: any;
-  funcName: string;
+  code: string;
   solutionUrl: string;
 }
 
@@ -52,16 +51,15 @@ const ChallengeContainer: React.FC<IProps> = (props) => {
         {expanded && (
           <motion.div
             transition={{ duration: 0.2 }}
-            animate={{ scaleY: 1, transformOrigin: 'top' }}
+            animate={{ scaleY: 1 }}
             initial={{ scaleY: 0 }}
             exit={{ scaleY: 0 }}
             className="bg-blue-300 w-11/12 shadow-xl rounded-b-lg py-4"
+            style={{ transformOrigin: 'top' }}
           >
             <div className="flex justify-center">
               <pre className="w-11/12 p-1">
-                <code className="language-js">{`const ${
-                  props.funcName
-                } = ${props.code.toString()}`}</code>
+                <code className="language-ts">{props.code}</code>
               </pre>
             </div>
             <div className="mx-2">{props.children}</div>
