@@ -7,6 +7,7 @@ interface IProps {
   number: number;
   hint: string;
   title: string;
+  desc: string;
   code: string;
   solutionUrl: string;
 }
@@ -54,11 +55,12 @@ const ChallengeContainer: React.FC<IProps> = (props) => {
             animate={{ scaleY: 1 }}
             initial={{ scaleY: 0 }}
             exit={{ scaleY: 0 }}
-            className="bg-blue-300 w-11/12 shadow-xl rounded-b-lg py-4"
+            className="bg-blue-300 w-11/12 shadow-xl rounded-b-lg py-4 px-8"
             style={{ transformOrigin: 'top' }}
           >
+            <p className="whitespace-pre-line w-full mb-4">{props.desc}</p>
             <div className="flex justify-center">
-              <pre className="w-11/12 p-1">
+              <pre className="w-full p-1">
                 <code className="language-ts">{props.code}</code>
               </pre>
             </div>
