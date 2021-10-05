@@ -7,6 +7,7 @@ import solution3 from '../../lib/solution3/solution3';
 import solution4 from '../../lib/solution4/solution4';
 import codeStrings from '../../descriptions/codeStrings.json';
 import descStrings from '../../descriptions/descStrings.json';
+import solution5 from '../../lib/solution5/solution5';
 
 const ChallengesList = () => {
   const textFromFile = async (
@@ -70,17 +71,18 @@ const ChallengesList = () => {
         end. 400 times is more than enough."
         desc={descStrings.desc4}
         code={codeStrings.solution4}
-        solutionUrl="TODO"
-      />
-      <ChallengeContainer
-        number={4}
-        title="Follow the chain"
-        hint="DON'T TRY ALL NOTHINGS, since it will never 
-        end. 400 times is more than enough."
-        desc={descStrings.desc4}
-        code={codeStrings.solution4}
         solutionUrl="http://www.pythonchallenge.com/pc/def/peak.html"
       />
+      <ChallengeContainer
+        number={5}
+        title="Follow the chain"
+        hint="Pronounce it. Peak hell sounds familiar?"
+        desc={descStrings.desc5}
+        code={codeStrings.solution5}
+        solutionUrl="TODO"
+      >
+        <button onClick={() => solution5()}>asdasd</button>
+      </ChallengeContainer>
     </div>
   );
 };
