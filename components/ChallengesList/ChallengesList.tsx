@@ -1,13 +1,12 @@
-import solution0 from '../../lib/solution0/solution0';
 import UploadForm from '../UIElements/UploadForm';
 import ChallengeContainer from '../ChallengeContainer/ChallengeContainer';
-import solution1 from '../../lib/solution1/solution1';
 import solution2 from '../../lib/solution2/solution2';
 import solution3 from '../../lib/solution3/solution3';
-import solution4 from '../../lib/solution4/solution4';
 import codeStrings from '../../descriptions/codeStrings.json';
 import descStrings from '../../descriptions/descStrings.json';
 import solution5 from '../../lib/solution5/solution5';
+import solution6 from '../../lib/solution6/solution6';
+import Button from '../UIElements/Button';
 
 const ChallengesList = () => {
   const textFromFile = async (
@@ -55,7 +54,7 @@ const ChallengesList = () => {
         number={3}
         title="Re"
         hint="One small letter, surrounded by EXACTLY three big bodyguards on each of its sides."
-        desc={JSON.stringify(descStrings.desc3)}
+        desc={descStrings.desc3}
         code={codeStrings.solution3}
         solutionUrl="http://www.pythonchallenge.com/pc/def/linkedlist.html"
       >
@@ -75,13 +74,23 @@ const ChallengesList = () => {
       />
       <ChallengeContainer
         number={5}
-        title="Follow the chain"
+        title="Peak hell"
         hint="Pronounce it. Peak hell sounds familiar?"
         desc={descStrings.desc5}
         code={codeStrings.solution5}
-        solutionUrl="TODO"
+        solutionUrl="http://www.pythonchallenge.com/pc/def/channel.html"
       >
         <button onClick={() => solution5()}>asdasd</button>
+      </ChallengeContainer>
+      <ChallengeContainer
+        number={6}
+        title="Now there are pairs"
+        hint="<!-- <-- zip -->"
+        desc={descStrings.desc6}
+        code={codeStrings.solution6}
+        solutionUrl="http://www.pythonchallenge.com/pc/def/channel.html"
+      >
+        <Button onClick={() => solution6()}>Try me!</Button>
       </ChallengeContainer>
     </div>
   );

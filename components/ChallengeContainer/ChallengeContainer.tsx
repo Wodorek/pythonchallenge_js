@@ -20,7 +20,7 @@ const ChallengeContainer: React.FC<IProps> = (props) => {
   }, [expanded]);
 
   return (
-    <div className="w-4/5 flex flex-col items-center">
+    <div className="w-4/5 flex flex-col items-center mb-5">
       <div className="relative flex w-full min-h-[8rem] h-32 border-2 border-blue-300 rounded-t-lg shadow-lg">
         <span className="w-min text-5xl text-blue-400 mr-5 ml-2 h-full">
           #{props.number}
@@ -64,7 +64,9 @@ const ChallengeContainer: React.FC<IProps> = (props) => {
                 <code className="language-ts">{props.code}</code>
               </pre>
             </div>
-            <div className="mx-2">{props.children}</div>
+            <div className="mx-2 flex justify-center mt-2">
+              {props.children}
+            </div>
             {/* <Spoiler>{props.solutionUrl}</Spoiler> */}
           </motion.div>
         )}
