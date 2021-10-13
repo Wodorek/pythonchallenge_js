@@ -2,10 +2,11 @@ import UploadForm from '../UIElements/UploadForm';
 import ChallengeContainer from '../ChallengeContainer/ChallengeContainer';
 import solution2 from '../../lib/solution2/solution2';
 import solution3 from '../../lib/solution3/solution3';
-import codeStrings from '../../descriptions/codeStrings.json';
-import descStrings from '../../descriptions/descStrings.json';
 import solution5 from '../../lib/solution5/solution5';
 import solution6 from '../../lib/solution6/solution6';
+import Solution7 from '../../lib/solution7/solution7';
+import codeStrings from '../../descriptions/codeStrings.json';
+import descStrings from '../../descriptions/descStrings.json';
 import Button from '../UIElements/Button';
 
 const ChallengesList = () => {
@@ -91,6 +92,16 @@ const ChallengesList = () => {
         solutionUrl="http://www.pythonchallenge.com/pc/def/channel.html"
       >
         <Button onClick={() => solution6()}>Try me!</Button>
+      </ChallengeContainer>
+      <ChallengeContainer
+        number={7}
+        hint={'None'}
+        title={'Smarty'}
+        desc={descStrings.desc7}
+        code={codeStrings.solution7}
+        solutionUrl={'https://www.pythonchallenge.com/pc/def/integrity.html'}
+      >
+        <Solution7 />
       </ChallengeContainer>
     </div>
   );
