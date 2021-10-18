@@ -1,6 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import React from 'react';
 import ChallengeContainer from '../../components/ChallengeContainer/ChallengeContainer';
+import UploadForm from '../../components/UIElements/UploadForm';
 import { ISolution } from '../../interfaces';
 import getAllSolutionsIds from '../../lib/getAllSolutionsIds';
 import getSolutionData from '../../lib/getSolutionData';
@@ -11,16 +12,14 @@ interface IProps {
 
 const Solution: React.FC<IProps> = ({ solutionData }) => {
   return (
-    <div>
-      <ChallengeContainer
-        number={solutionData.id}
-        hint={solutionData.hint}
-        title={solutionData.title}
-        desc={solutionData.desc}
-        code={solutionData.code}
-        solutionUrl={solutionData.solutionUrl}
-      />
-    </div>
+    <ChallengeContainer
+      number={solutionData.id}
+      hint={solutionData.hint}
+      title={solutionData.title}
+      desc={solutionData.desc}
+      code={solutionData.code}
+      solutionUrl={solutionData.solutionUrl}
+    />
   );
 };
 

@@ -103,6 +103,14 @@ const ChallengesList = () => {
       >
         <Solution7 />
       </ChallengeContainer>
+      <ChallengeContainer
+        number={8}
+        hint={'Where is the missing link?'}
+        title={'Working hard?'}
+        desc={''}
+        code={''}
+        solutionUrl={''}
+      />
     </div>
   );
 };
