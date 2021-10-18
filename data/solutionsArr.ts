@@ -1,15 +1,16 @@
 import { ISolution } from '../interfaces';
 import descStrings from '../descriptions/descStrings.json';
 import codeString from '../descriptions/codeStrings.json';
+import solution3 from '../lib/solution3/solution3';
 
 const solutionsArr = <ISolution[]>[
   {
     id: 0,
-    title: '',
-    hint: '',
+    title: 'Warming up',
+    hint: 'try to change the URL address.',
     desc: descStrings.desc0,
     code: codeString.solution0,
-    solutionUrl: '',
+    solutionUrl: 'http://www.pythonchallenge.com/pc/def/274877906944.html',
   },
   {
     id: 1,
