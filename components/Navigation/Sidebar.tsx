@@ -9,9 +9,9 @@ const Sidebar: React.FC<IProps> = (props) => {
   return (
     <aside className="">
       <div
-        className={`fixed xl:sticky top-10 mt-10 left-10 h-sidebar w-60 overflow-y-scroll bg-purple-400 z-10 xl:block ${
+        className={`shadow-md bg-gray-100 fixed xl:sticky top-10 mt-10 left-10 h-sidebar w-60 overflow-y-scroll z-10 xl:block ${
           props.isOpen ? '' : 'hidden'
-        }`}
+        } box-border`}
       >
         {getAllSolutionsIds().map((solution, idx) => {
           return <NavButton key={idx} id={solution.params.solution} />;

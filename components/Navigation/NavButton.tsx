@@ -9,14 +9,14 @@ interface IProps {
 const NavButton: React.FC<IProps> = (props) => {
   const router = useRouter();
 
-  const activeClass = router.query.solution === props.id ? 'bg-blue-300' : '';
+  const activeClass = router.query.solution === props.id ? 'border-l-4' : '';
 
   return (
     <Link href={`/solutions/${props.id}`}>
       <div
-        className={`bg-red-700 h-12 flex items-center mb-2 cursor-pointer ${activeClass}`}
+        className={`box-border border-gray-700 h-12 flex items-center mb-2 cursor-pointer  ${activeClass}`}
       >
-        <span className="p-2">Solution {props.id}</span>
+        <span className="p-2">Challenge {props.id}</span>
       </div>
     </Link>
   );
