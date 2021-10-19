@@ -1,7 +1,6 @@
 import { ISolution } from '../interfaces';
 import descStrings from '../descriptions/descStrings.json';
 import codeString from '../descriptions/codeStrings.json';
-import solution3 from '../lib/solution3/solution3';
 
 const solutionsArr = <ISolution[]>[
   {
