@@ -1,7 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import React from 'react';
 import ChallengeContainer from '../../components/ChallengeContainer/ChallengeContainer';
-import UploadForm from '../../components/UIElements/UploadForm';
 import { ISolution } from '../../interfaces';
 import getAllSolutionsIds from '../../lib/getAllSolutionsIds';
 import getSolutionData from '../../lib/getSolutionData';
