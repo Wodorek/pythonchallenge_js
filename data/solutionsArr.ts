@@ -1,6 +1,6 @@
 import { ISolution } from '../interfaces';
-import descStrings from '../descriptions/descStrings.json';
-import codeString from '../descriptions/codeStrings.json';
+import descStrings from './descStrings.json';
+import codeString from './codeStrings.json';
 
 const solutionsArr = <ISolution[]>[
   {
@@ -71,121 +71,9 @@ const solutionsArr = <ISolution[]>[
     id: 8,
     title: 'Working hard?',
     hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
-  },
-  {
-    id: 7,
-    title: 'Smarty',
-    hint: 'None',
-    desc: descStrings.desc7,
-    code: codeString.solution7,
-    solutionUrl: 'https://www.pythonchallenge.com/pc/def/integrity.html',
-  },
-  {
-    id: 8,
-    title: 'Working hard?',
-    hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
-  },
-  {
-    id: 7,
-    title: 'Smarty',
-    hint: 'None',
-    desc: descStrings.desc7,
-    code: codeString.solution7,
-    solutionUrl: 'https://www.pythonchallenge.com/pc/def/integrity.html',
-  },
-  {
-    id: 8,
-    title: 'Working hard?',
-    hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
-  },
-  {
-    id: 7,
-    title: 'Smarty',
-    hint: 'None',
-    desc: descStrings.desc7,
-    code: codeString.solution7,
-    solutionUrl: 'https://www.pythonchallenge.com/pc/def/integrity.html',
-  },
-  {
-    id: 8,
-    title: 'Working hard?',
-    hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
-  },
-  {
-    id: 7,
-    title: 'Smarty',
-    hint: 'None',
-    desc: descStrings.desc7,
-    code: codeString.solution7,
-    solutionUrl: 'https://www.pythonchallenge.com/pc/def/integrity.html',
-  },
-  {
-    id: 8,
-    title: 'Working hard?',
-    hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
-  },
-  {
-    id: 7,
-    title: 'Smarty',
-    hint: 'None',
-    desc: descStrings.desc7,
-    code: codeString.solution7,
-    solutionUrl: 'https://www.pythonchallenge.com/pc/def/integrity.html',
-  },
-  {
-    id: 8,
-    title: 'Working hard?',
-    hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
-  },
-  {
-    id: 7,
-    title: 'Smarty',
-    hint: 'None',
-    desc: descStrings.desc7,
-    code: codeString.solution7,
-    solutionUrl: 'https://www.pythonchallenge.com/pc/def/integrity.html',
-  },
-  {
-    id: 8,
-    title: 'Working hard?',
-    hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
-  },
-  {
-    id: 7,
-    title: 'Smarty',
-    hint: 'None',
-    desc: descStrings.desc7,
-    code: codeString.solution7,
-    solutionUrl: 'https://www.pythonchallenge.com/pc/def/integrity.html',
-  },
-  {
-    id: 8,
-    title: 'Working hard?',
-    hint: 'Where is the missing link',
-    desc: '',
-    code: '',
-    solutionUrl: '',
+    desc: descStrings.desc8,
+    code: codeString.solution8,
+    solutionUrl: 'http://www.pythonchallenge.com/pc/return/good.html',
   },
 ];
 
