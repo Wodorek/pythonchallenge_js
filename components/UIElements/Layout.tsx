@@ -1,10 +1,17 @@
-import NavMenu from '../Navigation/NavMenu';
+import { useState } from 'react';
+import Sidebar from '../Navigation/Sidebar';
+import SidebarIcon from '../Navigation/SidebarIcon';
 
 const Layout: React.FC = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="relative">
-      <NavMenu />
-      <div className="bg-red-200 w-4/5 mx-auto">{props.children}</div>
+    <div className="mx-auto 2xl:w-2/3 xl:w-11/12 lg:w-4/5">
+      <div className="flex lg:gap-x-4">
+        <Sidebar isOpen={isOpen} />
+        <div className="overflow-hidden">{props.children}</div>
+      </div>
+      <SidebarIcon open={() => setIsOpen((prev) => !prev)} isOpen={isOpen} />
     </div>
   );
 };
