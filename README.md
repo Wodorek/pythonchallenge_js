@@ -10,7 +10,7 @@ A website containing solutions for the [Python Challenge](http://pythonchallenge
 
 ## General info
 
-A website containing solutions for the famous python challenge.
+A website containing solutions for the famous python challenge. 8 solutions so far, with more coming in the next few days.
 
 Each solution contains a description of the problem, and the approach on how to solve it, and a code block, containing the code used to solve each puzzle.
 
