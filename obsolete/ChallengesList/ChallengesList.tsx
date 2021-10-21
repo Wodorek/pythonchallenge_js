@@ -1,5 +1,5 @@
-import UploadForm from '../UIElements/UploadForm';
-import ChallengeContainer from '../../obsolete/ChallengeContainer/ChallengeContainer';
+import UploadForm from '../../components/UIElements/UploadForm';
+import ChallengeContainer from '../../components/ChallengeContainer';
 import solution2 from '../../lib/solution2/solution2';
 import solution3 from '../../lib/solution3/solution3';
 import solution5 from '../../lib/solution5/solution5';
@@ -7,7 +7,7 @@ import solution6 from '../../lib/solution6/solution6';
 import Solution7 from '../../lib/solution7/solution7';
 import codeStrings from '../../data/codeStrings.json';
 import descStrings from '../../data/descStrings.json';
-import Button from '../UIElements/Button';
+import Button from '../../components/UIElements/Button';
 
 const ChallengesList = () => {
   const textFromFile = async (
