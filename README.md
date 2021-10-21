@@ -34,4 +34,4 @@ $npm run dev
 
 ## Contributing
 
-If I have a problem tackling some of the challenges, I will create an issue. Feel free to create a PR for it! Please check contribution guidlines, for information which files to modify.
+If I have a problem tackling some of the challenges, I will create an issue. Feel free to create a PR for it!
