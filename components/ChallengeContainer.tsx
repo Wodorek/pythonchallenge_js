@@ -9,6 +9,10 @@ interface IProps {
   title: string;
   desc: string;
   code: string;
+  packs?: {
+    name: string;
+    url: string;
+  }[];
   solutionUrl: string;
 }
 
@@ -35,7 +39,28 @@ const ChallengeContainer: React.FC<IProps> = (props) => {
         </pre>
       </div>
       <div className="mx-2 flex justify-center mt-2">{props.children}</div>
-      <div>
+      {props.packs && (
+        <>
+          <span>Packages used:</span>
+          <ul className="mb-5 mt-3 list-decimal px-4">
+            {props.packs.map((pack) => {
+              return (
+                <li key={pack.name} className="mb-1">
+                  <span>{pack.name} - </span>
+                  <a
+                    className="text-blue-600 hover:text-blue-800 underline"
+                    href={pack.url}
+                  >
+                    {pack.url}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      )}
+
+      <div className="mt-10 mb-4">
         Solution url:{' '}
         <span className="bg-black hover:bg-white">{props.solutionUrl}</span>
       </div>
