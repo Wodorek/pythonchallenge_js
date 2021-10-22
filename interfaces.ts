@@ -4,5 +4,9 @@ export interface ISolution {
   hint: string;
   desc: string;
   code: string;
+  packs: {
+    name: string;
+    url: string;
+  }[];
   solutionUrl: string;
 }

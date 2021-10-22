@@ -22,6 +22,7 @@ const Solution: React.FC<IProps> = ({ solutionData }) => {
         title={solutionData.title}
         desc={solutionData.desc}
         code={solutionData.code}
+        packs={solutionData.packs}
         solutionUrl={solutionData.solutionUrl}
       />
     </>
