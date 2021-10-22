@@ -57,6 +57,12 @@ const solutionsArr = <ISolution[]>[
     hint: '<!-- <-- zip -->',
     desc: descStrings.desc6,
     code: codeString.solution6,
+    packs: [
+      {
+        name: 'node-stream-zip',
+        url: 'https://www.npmjs.com/package/node-stream-zip',
+      },
+    ],
     solutionUrl: 'http://www.pythonchallenge.com/pc/def/channel.html',
   },
   {
@@ -73,6 +79,9 @@ const solutionsArr = <ISolution[]>[
     hint: 'Where is the missing link',
     desc: descStrings.desc8,
     code: codeString.solution8,
+    packs: [
+      { name: 'compressjs', url: 'https://www.npmjs.com/package/compressjs' },
+    ],
     solutionUrl: 'http://www.pythonchallenge.com/pc/return/good.html',
   },
 ];
