@@ -86,11 +86,11 @@ const solutionsArr = <ISolution[]>[
   },
   {
     id: 9,
-    title: '',
-    hint: '',
+    title: 'Connect the dots',
+    hint: 'first + second =?',
     desc: descStrings.desc9,
     code: codeStrings.solution9,
-    solutionUrl: '',
+    solutionUrl: 'http://www.pythonchallenge.com/pc/return/bull.html',
   },
 ];
 
