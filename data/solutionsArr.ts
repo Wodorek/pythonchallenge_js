@@ -92,6 +92,14 @@ const solutionsArr = <ISolution[]>[
     code: codeStrings.solution9,
     solutionUrl: 'http://www.pythonchallenge.com/pc/return/bull.html',
   },
+  {
+    id: 10,
+    title: 'What are you looking at?',
+    hint: 'len(a[30]) = ?',
+    desc: descStrings.desc10,
+    code: codeStrings.solution10,
+    solutionUrl: 'http://www.pythonchallenge.com/pc/return/5808.html',
+  },
 ];
 
 export default solutionsArr;
