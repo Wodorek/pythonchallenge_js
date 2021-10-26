@@ -108,6 +108,21 @@ const solutionsArr = <ISolution[]>[
     code: codeStrings.solution11,
     solutionUrl: 'http://www.pythonchallenge.com/pc/return/evil.html',
   },
+  {
+    id: 11,
+    title: 'Dealing evil',
+    hint: 'None',
+    desc: descStrings.desc12,
+    code: codeStrings.solution12,
+    solutionUrl:
+      'http://www.pythonchallenge.com/pc/return/disproportional.html',
+    packs: [
+      {
+        name: 'images',
+        url: 'https://github.com/Wodorek/pythonchallenge_js/tree/main/public/solution12',
+      },
+    ],
+  },
 ];
 
 export default solutionsArr;
