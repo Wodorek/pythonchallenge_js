@@ -109,7 +109,7 @@ const solutionsArr = <ISolution[]>[
     solutionUrl: 'http://www.pythonchallenge.com/pc/return/evil.html',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Dealing evil',
     hint: 'None',
     desc: descStrings.desc12,
