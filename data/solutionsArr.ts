@@ -123,6 +123,20 @@ const solutionsArr = <ISolution[]>[
       },
     ],
   },
+  {
+    id: 13,
+    title: 'Call him',
+    hint: 'phone that evil',
+    desc: descStrings.desc13,
+    code: codeStrings.solution13,
+    solutionUrl: 'http://www.pythonchallenge.com/pc/return/italy.html',
+    packs: [
+      {
+        name: 'davexmlrpc',
+        url: 'https://www.npmjs.com/package/davexmlrpc',
+      },
+    ],
+  },
 ];
 
 export default solutionsArr;
