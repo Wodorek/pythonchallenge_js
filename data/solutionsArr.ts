@@ -137,6 +137,14 @@ const solutionsArr = <ISolution[]>[
       },
     ],
   },
+  {
+    id: 14,
+    title: 'Walk around',
+    hint: 'remember: 100*100 = (100+99+99+98) + (...',
+    desc: descStrings.desc14,
+    code: codeStrings.solution14,
+    solutionUrl: 'http://www.pythonchallenge.com/pc/return/uzi.html',
+  },
 ];
 
 export default solutionsArr;
