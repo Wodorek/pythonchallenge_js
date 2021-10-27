@@ -62,7 +62,12 @@ const ChallengeContainer: React.FC<IProps> = (props) => {
 
       <div className="mt-10 mb-4">
         Solution url:{' '}
-        <span className="bg-black hover:bg-white">{props.solutionUrl}</span>
+        <a
+          href={props.solutionUrl}
+          className="bg-black hover:bg-white underline"
+        >
+          {props.solutionUrl}
+        </a>
       </div>
     </div>
   );
