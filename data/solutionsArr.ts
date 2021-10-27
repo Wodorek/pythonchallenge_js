@@ -109,7 +109,7 @@ const solutionsArr = <ISolution[]>[
     solutionUrl: 'http://www.pythonchallenge.com/pc/return/evil.html',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Dealing evil',
     hint: 'None',
     desc: descStrings.desc12,
@@ -120,6 +120,20 @@ const solutionsArr = <ISolution[]>[
       {
         name: 'images',
         url: 'https://github.com/Wodorek/pythonchallenge_js/tree/main/public/solution12',
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: 'Call him',
+    hint: 'phone that evil',
+    desc: descStrings.desc13,
+    code: codeStrings.solution13,
+    solutionUrl: 'http://www.pythonchallenge.com/pc/return/italy.html',
+    packs: [
+      {
+        name: 'davexmlrpc',
+        url: 'https://www.npmjs.com/package/davexmlrpc',
       },
     ],
   },
