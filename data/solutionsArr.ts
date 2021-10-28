@@ -145,6 +145,14 @@ const solutionsArr = <ISolution[]>[
     code: codeStrings.solution14,
     solutionUrl: 'http://www.pythonchallenge.com/pc/return/uzi.html',
   },
+  {
+    id: 15,
+    title: 'Whom?',
+    hint: "<!-- he ain't the youngest, he is the second -->",
+    desc: descStrings.desc15,
+    code: codeStrings.solution15,
+    solutionUrl: 'http://www.pythonchallenge.com/pc/return/baloons.html',
+  },
 ];
 
 export default solutionsArr;
