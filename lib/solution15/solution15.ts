@@ -13,7 +13,7 @@ const solution15 = () => {
     }
   }
 
-  //log second to last monday, aka "second younges"
+  //log second to last monday, aka "second youngest"
   console.log(mondays[mondays.length - 2]);
 };
 
