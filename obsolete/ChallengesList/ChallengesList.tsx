@@ -9,6 +9,7 @@ import codeStrings from '../../data/codeStrings.json';
 import descStrings from '../../data/descStrings.json';
 import Button from '../../components/UIElements/Button';
 
+//DELETE
 const ChallengesList = () => {
   const textFromFile = async (
     file: File,
