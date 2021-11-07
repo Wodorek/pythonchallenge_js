@@ -37,6 +37,7 @@ const Solution16 = () => {
     const outCanvas = outCanvasRef.current;
     const outCtx = outCanvas?.getContext('2d');
 
+    //Typescript
     if (!srcCanvas || !srcCtx || !outCanvas || !outCtx) return;
 
     const imgData = srcCtx.getImageData(
