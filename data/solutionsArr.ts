@@ -168,6 +168,13 @@ const solutionsArr = <ISolution[]>[
     desc: descStrings.desc17,
     code: codeStrings.solution17,
     solutionUrl: 'http://www.pythonchallenge.com/pc/stuff/balloons.html',
+    packs: [
+      {
+        name: 'davexmlrpc',
+        url: 'https://www.npmjs.com/package/davexmlrpc',
+      },
+      { name: 'compressjs', url: 'https://www.npmjs.com/package/compressjs' },
+    ],
   },
 ];
 
